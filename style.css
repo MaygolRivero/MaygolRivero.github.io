@@ -1,0 +1,93 @@
+body {
+
+    background-color: blueviolet;
+
+}
+p {
+    background-color: rgb(107, 58, 175);
+
+}
+h1{
+    color: aqua;
+}
+
+.principal {
+    color: brown;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.secundario {
+    color: blue;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.terceario {
+    color: rgb(32, 8, 54);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a :hover {
+    color: brown;
+    background-color: blue;
+    
+}
+#parrafoprincipal{
+    color: bisque;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#parrafosecundario{
+    color: rgb(212, 164, 102);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#parrafoterceario{
+    color: rgb(212, 164, 102);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.contenedor1 {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    padding: 20 px;
+    border: 5px solid rgb(120, 15, 144);
+}
+
+.contenedor2 {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    padding: 0 px;
+    border: 5px solid rgb(135, 17, 137);
+}
+
+.contenedor3 {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    padding: 0 px;
+    border: 5px solid rgb(135, 17, 137);
+    }
+
+.contenedor {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.grid-item {
+    background-color: rgb(189, 156, 113);
+    border: 20 dotted rgb(31, 150, 31);
+}
